@@ -1,0 +1,25 @@
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(91, 91, 91, 1) 15%,
+    rgba(51, 51, 51, 1) 40%,
+    rgba(43, 43, 43, 1) 70%
+  );
+  color: white;
+  padding: 30px;
+  row-gap: 1rem;
+  h1 {
+    font-size: 40px;
+  }
+  img {
+    width: 350px;
+  }
+  p {
+    user-select: none;
+    text-align: center;
+  }
+}

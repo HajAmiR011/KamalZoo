@@ -1,0 +1,25 @@
+footer {
+  background: #1b1b1b;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  direction: rtl;
+  ul {
+    list-style: none;
+    color: whitesmoke;
+    li{
+        text-transform: capitalize;
+        font-size: 17px;
+        transition: 300ms;
+        margin-bottom: 2px;
+        cursor: pointer;
+        &:hover{
+            color: red;
+        }
+        &:active{
+            transform: scale(1.08);
+        }
+    }
+  }
+}

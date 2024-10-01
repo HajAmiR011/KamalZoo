@@ -1,0 +1,15 @@
+header {
+  span {
+    display: none;
+  }
+  nav {
+    height: inherit;
+    display: flex !important;
+    background-color: transparent;
+    justify-content: center;
+    transition: 0;
+    & div {
+      width: fit-content;
+    }
+  }
+}
